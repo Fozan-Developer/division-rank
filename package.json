@@ -21,5 +21,8 @@
     "url": "https://github.com/Fozan-Developer/division-rank/issues"
   },
   "homepage": "https://github.com/Fozan-Developer/division-rank#readme",
-  "showWelcomeMessage": true
+  "showWelcomeMessage": true,
+  "dependencies": {
+    "@mr_fozan/division-rank": "1.0.3"
+  }
 }
