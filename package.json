@@ -1,6 +1,6 @@
 {
   "name": "division-rank",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,8 +14,8 @@
   "author": "Mr_Fozan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Fozan-Developer/rank-sytem/issues"
+    "url": "https://github.com/Fozan-Developer/division-rank/issues"
   },
-  "homepage": "https://github.com/Fozan-Developer/rank-sytem#readme",
+  "homepage": "https://github.com/Fozan-Developer/division-rank#readme",
   "showWelcomeMessage": true
 }
