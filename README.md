@@ -9,7 +9,7 @@ For detailed documentation and usage instructions, please refer to the [full doc
 To install the Division Rank library, you can use npm:
 
 ```bash
-npm install @mr_fozan/division-rank
+npm install division-rank
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install @mr_fozan/division-rank
 Here is a basic example of using the library:
 
 ```javascript
-const { RankSystem } = require('@mr_fozan/division-rank');
+const RankSystem = require('division-rank');
 
 // Example initialization with initial divisions
 const initialDivisions = [
