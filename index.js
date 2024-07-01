@@ -2,15 +2,16 @@ const checkWelcomeMessageFunc = require('./src/checkWelcomeMessage');
 const validateDivision = require('./src/validateDivision');
 const findUserDivision = require('./src/findUserDivision');
 const getUsersInDivision = require('./src/getUsersInDivision');
+const assignDivisions = require('./src/assignDivisions');
 
 class RankSystem {
     constructor(initialDivisions = []) {
         this.divisions = {};
-        initialDivisions.forEach(division => this.#createDivision(division.name, division.options));
+        initialDivisions.forEach(division => this.#createDivision({ id: division.id, name: division.name, options: division.options }));
     }
 
     // Private method to create a new division
-    #createDivision(name, options) {
+    #createDivision({ id, name, options }) {
         validateDivision(name, options); // Validate the division
 
         // Check if a division with the same name already exists
@@ -20,6 +21,8 @@ class RankSystem {
 
         // Create a new division
         this.divisions[name] = {
+            id: id,
+            name: name,
             users: {},
             options: options
         };
@@ -50,6 +53,10 @@ class RankSystem {
     // Method to get users in a specific division
     getUsersInDivision(users, division) {
         return getUsersInDivision({ users, division, divisions: this.divisions });
+    }
+
+    assignDivisions({ users, numberOfRounds }) {
+        return assignDivisions({ users, numberOfRounds, initialDivisions: this.divisions });
     }
 }
 
