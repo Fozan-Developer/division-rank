@@ -1,6 +1,6 @@
 {
   "name": "@mr_fozan/division-rank",
-  "version": "1.0.5",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,5 @@
     "url": "https://github.com/Fozan-Developer/division-rank/issues"
   },
   "homepage": "https://github.com/Fozan-Developer/division-rank#readme",
-  "showWelcomeMessage": true,
-  "dependencies": {
-    "@mr_fozan/division-rank": "1.0.3"
-  }
+  "showWelcomeMessage": true
 }
