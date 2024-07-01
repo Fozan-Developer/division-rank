@@ -1,0 +1,25 @@
+{
+  "name": "@mr_fozan/division-rank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fozan-Developer/division-rank.git"
+  },
+  "keywords": [
+    "ranks",
+    "node-js",
+    "division"
+  ],
+  "author": "Mr_Fozan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fozan-Developer/division-rank/issues"
+  },
+  "homepage": "https://github.com/Fozan-Developer/division-rank#readme",
+  "showWelcomeMessage": true
+}
